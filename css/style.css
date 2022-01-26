@@ -1,0 +1,139 @@
+/* p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    box-sizing: border-box;
+} */
+
+/*---------------------------- header section ----------------------------*/
+.headerbox {
+    background-color: #212529;
+    width: 100%;
+    top: 0;
+    /* position: fixed; */
+    z-index: 1;
+    text-align: left;
+}
+
+.user_name {
+  font-size: 35px; letter-spacing: 1px; color: #ffff; padding: 10px; background-color:
+}
+
+a.namelink, a.namelink:visited, a.namelink:active {
+    color: #ffff; text-decoration: none;
+}
+
+/*---------------------------- main box ----------------------------*/
+.main-box {
+  background-color: #ffff;
+  color: #000000;
+}
+
+/*---------------------------- col boostrap ---------------------------- */
+col-sm-3 {
+  height: 20%;
+}
+
+/*---------------------------- boxes in homepage ---------------------------- */
+
+.homebox {
+    background-color: #F8EFD4; padding: 95px;
+}
+
+.outsidehomebox {
+    margin-bottom: 80px;
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+.intro-border {
+  border-bottom: 1px #d6ccc2 solid;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.name-with-img {
+  margin-top: 140px;
+  padding-left: 10%;
+  font-size: 20px;
+  font-family: 'Bree Serif', serif;
+  text-align: justify;
+  letter-spacing: 0.15em;
+}
+
+.resume-container {
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  padding: 30px;
+  background-color: #fff;
+}
+
+.resume-box {
+  background-color: #227c9d;
+  padding: 50px;
+  border-radius: 100px;
+  margin-left: 70px;
+  transition: 0.9s;
+  transition-duration: 1s;
+}
+
+a.home-links, a.home-links:visited, a.home-links:active  {
+  color: #000000; text-decoration: none;
+}
+
+.project-box {
+  background-color: #fe6d73;
+  padding: 50px;
+  margin-left: 70px;
+  transition: 0.9s;
+  transition-duration: 1s;
+}
+
+.aboutme-box {
+    background-color: #17c3b2;
+    padding: 50px;
+    margin-left: 70px;
+    transition: 0.9s;
+    transition-duration: 1s;
+  }
+
+  /* ------ boxes hover ------ */
+  .resume-box:hover {
+    opacity: 0.75;
+  }
+
+  .project-box:hover {
+    opacity: 0.65;
+  }
+
+  .aboutme-box:hover {
+    opacity: 0.6;
+  }
+
+/* ---------------------------- about me section  ---------------------------- */
+
+/* .aboutme_img {
+    margin-left: 13%;
+    height: 320px;
+    width: 300px;
+    border: 23px solid #61AAC5;
+} */
+/*
+#aboutme_par {
+    margin-top: 19%;
+    display: flex;
+    align-items:center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 50px;
+}
+
+.aboutme_box {
+    background-color: #F8EFD4;
+    margin-left: 3%;
+    padding: 20px;
+} */

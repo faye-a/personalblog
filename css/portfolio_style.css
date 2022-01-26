@@ -1,0 +1,152 @@
+/* p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    box-sizing: border-box;
+} */
+
+p {
+    font-size: 20px;
+}
+
+/*---------------------------- header section ----------------------------*/
+.headerbox {
+    background-color: #212529;
+    width: 100%;
+    top: 0;
+    /* position: fixed; */
+    z-index: 1;
+    text-align: left;
+}
+
+.user_name {
+    font-size: 35px; letter-spacing: 1px; color: #ffff; padding: 5px;
+}
+
+a.namelink, a.namelink:visited, a.namelink:active {
+    color: white; text-decoration: none;
+}
+
+/*---------------------------- main box ----------------------------*/
+.main-box {
+  background-color: #ffff;
+  color: #000000;
+}
+
+
+/*---------------------------- boxes in homepage ---------------------------- */
+
+.homebox {
+    background-color: #F8EFD4; padding: 95px;
+}
+
+.box-shadow-hover:hover {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    transition: 0.8s;
+      }
+
+.outsidehomebox {
+    margin-bottom: 80px;
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+.intro-border {
+  border-bottom: 1px #d6ccc2 solid;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.name-with-img {
+  margin-top: 140px;
+  font-size: 30px;
+  font-family: 'Bree Serif', serif;
+  letter-spacing: 0.15em;
+}
+
+.resume-container {
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 30px;
+  background-color: #fff;
+}
+
+.resume-box {
+  background-color: #b8c0ff;
+  padding: 50px;
+  border-radius: 100px;
+}
+
+.resume-img-box {
+  background-color: black;
+}
+
+.project-box {
+  background-color: #ffd6ff;
+  padding: 50px;
+}
+
+.aboutme-box {
+    background-color: #e7c6ff;
+    padding: 50px;
+  }
+
+/*---------------------------- circles at home page ----------------------------*/
+
+.first_circle {
+    height: 260px;
+    width: 260px;
+    background-color: #61AAC5;
+    border-radius: 50%;
+    position: absolute;
+    top: 33%;
+    left: 15%;
+}
+
+.second_circle {
+    height: 260px;
+    width: 260px;
+    background-color: #61AAC5;
+    border-radius: 50%;
+    position: absolute;
+    top: 75%;
+    right: 15%;
+}
+
+.third_circle {
+    height: 260px;
+    width: 260px;
+    background-color: #61AAC5;
+    border-radius: 50%;
+    position: absolute;
+    top: 118%;
+    left: 15%;
+}
+
+/* ---------------------------- about me section  ---------------------------- */
+
+.aboutme_img {
+    /* margin-left: 13%; */
+    height: 320px;
+    width: 300px;
+    border: 23px solid #61AAC5;
+}
+/*
+#aboutme_par {
+    margin-top: 19%;
+    display: flex;
+    align-items:center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 50px;
+}
+
+.aboutme_box {
+    background-color: #F8EFD4;
+    margin-left: 3%;
+    padding: 20px;
+} */
