@@ -7,6 +7,12 @@
     box-sizing: border-box;
 } */
 
+
+/*---------------------------- boostrap ---------------------------- */
+col-sm-3 {
+  height: 20%;
+}
+
 /*---------------------------- header section ----------------------------*/
 .headerbox {
     background-color: #212529;
@@ -25,18 +31,12 @@ a.namelink, a.namelink:visited, a.namelink:active {
     color: #ffff; text-decoration: none;
 }
 
-/*---------------------------- main box ----------------------------*/
+
+/*---------------------------- homepage ----------------------------*/
 .main-box {
   background-color: #ffff;
   color: #000000;
 }
-
-/*---------------------------- col boostrap ---------------------------- */
-col-sm-3 {
-  height: 20%;
-}
-
-/*---------------------------- boxes in homepage ---------------------------- */
 
 .homebox {
     background-color: #F8EFD4; padding: 95px;
@@ -101,7 +101,7 @@ a.home-links, a.home-links:visited, a.home-links:active  {
     transition-duration: 1s;
   }
 
-  /* ------ boxes hover ------ */
+  /* ------ boxes homepage hover ------ */
   .resume-box:hover {
     opacity: 0.75;
   }
@@ -113,6 +113,14 @@ a.home-links, a.home-links:visited, a.home-links:active  {
   .aboutme-box:hover {
     opacity: 0.6;
   }
+
+
+/* ---------------------------- resume section  ---------------------------- */
+
+.contact-resum {
+  background-color: #D0B49F;
+  height: 75vh;
+}
 
 /* ---------------------------- about me section  ---------------------------- */
 
